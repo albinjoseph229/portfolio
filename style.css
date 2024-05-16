@@ -301,7 +301,9 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  width: 100%; /* Set the width to 100% */
 }
+
 
 .section-container {
   gap: 4rem;
