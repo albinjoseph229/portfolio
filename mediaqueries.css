@@ -101,3 +101,41 @@
     text-align: justify;
   }
 }
+@media screen and (max-width: 1200px) {
+    .degrees-section,
+    .certifications-section {
+      flex-basis: 100%; /* Each section takes up full width on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .degrees-section,
+    .certifications-section {
+      padding: 0; /* Remove padding on smaller screens */
+    }
+  
+    .degree-card,
+    .certification-card {
+      padding: 1rem; /* Add padding back to individual cards */
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .degrees-section,
+    .certifications-section {
+      flex-basis: 100%; /* Each section takes up full width on smaller screens */
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .degrees-section,
+    .certifications-section {
+      padding: 0; /* Remove padding on smaller screens */
+    }
+  
+    .degree-card,
+    .certification-card {
+      padding: 1rem; /* Add padding back to individual cards */
+    }
+  }
+  
+  
